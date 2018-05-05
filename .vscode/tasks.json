@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/PowerGrid.csproj"
+                "${workspaceFolder}/src/Terminal/Terminal.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
