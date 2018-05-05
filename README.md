@@ -1,5 +1,7 @@
 # Power Grid
 
+[![Build status](https://ci.appveyor.com/api/projects/status/github/charvey/PowerGrid?svg=true)](https://ci.appveyor.com/project/charvey/PowerGrid)
+
 ## Summary
 
 Help a player with Power Grid analysis and strategy
