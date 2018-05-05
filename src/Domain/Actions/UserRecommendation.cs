@@ -1,10 +1,10 @@
 namespace PowerGrid.Domain.Actions
 {
-    public class MakeRecommendationGameAction : GameAction
+    public class UserRecommendation : GameAction
     {
         public string Recommendation { get; }
 
-        public MakeRecommendationGameAction(string recommendation)
+        public UserRecommendation(string recommendation)
         {
             this.Recommendation = recommendation;
         }

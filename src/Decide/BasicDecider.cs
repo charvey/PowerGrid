@@ -11,10 +11,19 @@ namespace PowerGrid.Decide
     {
         public IEnumerable<GameAction> DecideActions(GameState gameState)
         {
-            var powerGridGameState = gameState as PowerGridGameState;
             return new GameAction[]
             {
-                new MakeRecommendationGameAction("Keep playing!"),
+                new UserRecommendation("Keep playing!")
+            }.Concat(GameInformation(gameState as PowerGridGameState));
+        }
+
+        private IEnumerable<GameAction> GameInformation(PowerGridGameState powerGridGameState)
+        {
+            if(powerGridGameState == null)
+                return new[]{new WarnUser("I'm having trouble understanding what's happening")};
+
+            return new[]
+            {
                 new InformUser($"Currently in Phase {powerGridGameState.Phase.Number}"),
                 new InformUser($"There are {powerGridGameState.Map.Cities.Count} cities on the map"),
                 new InformUser($"There are {powerGridGameState.RegionsInPlay.SelectMany(r=>powerGridGameState.Map.CitiesInRegion(r)).Count()} cities in play")
