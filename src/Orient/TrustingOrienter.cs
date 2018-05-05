@@ -11,8 +11,6 @@ namespace PowerGrid.Orient
     {
         public GameState OrientGameState(IEnumerable<Observation> observations)
         {
-return null;
-
             Map map = null;
             Phase phase = null;
             ISet<Region> regionsInPlay = null;

@@ -2,3 +2,6 @@ build_script:
   - dotnet build .\src\PowerGrid.sln
 
 image: Visual Studio 2017
+
+test_script:
+  - dotnet test .\src\Test\Test.csproj
