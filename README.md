@@ -1,11 +1,11 @@
-# PowerGrid
+# Power Grid
 
 ## Summary
 
-Project to analyze Power Grid strategy
+Help a player with Power Grid analysis and strategy
 
 ## Goals
 
-1. Best starting position
-1. Running network expansion costs
-1. Resource cost analysis
+1. Figuring out the cheapest options for expanding their network
+1. Determining the best city to start in
+1. Advising on market costs of resources

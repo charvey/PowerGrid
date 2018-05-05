@@ -1,0 +1,312 @@
+{
+  "Yellow": {
+    "Vancouver": {
+      "Seattle": 4,
+      "Calgary": 16,
+      "Regina": 28
+    },
+    "Seattle": {
+      "Portland": 5,
+      "Vancouver": 4
+    },
+    "Regina": {
+      "Vancouver": 28,
+      "Calgary": 14,
+      "Edmonton": 15,
+      "Salt Lake City": 29,
+      "Denver": 24,
+      "Winnipeg": 11
+    },
+    "Calgary": {
+      "Edmonton": 5,
+      "Regina": 14,
+      "Vancouver": 16
+    },
+    "Edmonton": {
+      "Calgary": 5,
+      "Regina": 15
+    },
+    "Winnipeg": {
+      "Denver": 26,
+      "Minneapolis": 13,
+      "Regina": 11
+    },
+    "Minneapolis": {
+      "Denver": 23,
+      "Kansas City": 14,
+      "Milwaukee": 10,
+      "Winnipeg": 13
+    }
+  },
+  "Blue": {
+    "Portland": {
+      "Seattle": 5,
+      "Salt Lake City": 22,
+      "San Francisco": 20
+    },
+    "San Francisco": {
+      "Salt Lake City": 22,
+      "Portland": 20,
+      "Las Vegas": 16,
+      "Los Angeles": 12
+    },
+    "Salt Lake City": {
+      "Regina": 29,
+      "Portland": 22,
+      "San Francisco": 22,
+      "Las Vegas": 14,
+      "Denver": 14
+    },
+    "Denver": {
+      "Regina": 24,
+      "Winnipeg": 26,
+      "Minneapolis": 23,
+      "Salt Lake City": 14,
+      "Las Vegas": 25,
+      "Kansas City": 19,
+      "Oklahoma City": 17,
+      "Albuquerque": 12
+    },
+    "Las Vegas": {
+      "San Francisco": 16,
+      "Salt Lake City": 14,
+      "Denver": 25,
+      "Los Angeles": 8,
+      "Albuquerque": 18
+    },
+    "Los Angeles": {
+      "San Francisco": 12,
+      "Las Vegas": 8,
+      "Albuquerque": 25,
+      "San Diego": 3
+    },
+    "San Diego": {
+      "Los Angeles": 3,
+      "Juarez": 22
+    }
+  },
+  "Purple": {
+    "Albuquerque": {
+      "Juarez": 9,
+      "Denver": 12,
+      "Las Vegas": 18,
+      "Los Angeles": 25,
+      "Oklahoma City": 18
+    },
+    "Juarez": {
+      "Dallas/Fort Worth": 19,
+      "San Antonio": 18,
+      "Chihuahua": 8,
+      "San Diego": 22,
+      "Albuquerque": 9
+    },
+    "Chihuahua": {
+      "San Antonio": 16,
+      "Monterrey": 14,
+      "Guadalajara": 23,
+      "Juarez": 8
+    },
+    "Monterrey": {
+      "Chihuahua": 14,
+      "San Antonio": 10,
+      "Guadalajara": 16,
+      "Mexico City (North)": 17
+    },
+    "Guadalajara": {
+      "Chihuahua": 23,
+      "Monterrey": 16,
+      "Mexico City (South)": 10
+    },
+    "Mexico City (North)": {
+      "Mexico City (South)": 0,
+      "Monterrey": 17
+    },
+    "Mexico City (South)": {
+      "Guadalajara": 10,
+      "Mexico City (North)": 0
+    }
+  },
+  "Orange": {
+    "San Antonio": {
+      "Juarez": 18,
+      "Chihuahua": 16,
+      "Monterrey": 10,
+      "Dallas/Fort Worth": 9,
+      "Houston": 6
+    },
+    "Dallas/Fort Worth": {
+      "Juarez": 19,
+      "San Antonio": 9,
+      "Houston": 8,
+      "Oklahoma City": 7,
+      "Memphis": 15,
+      "New Orleans": 16
+    },
+    "Houston": {
+      "New Orleans": 12,
+      "San Antonio": 6,
+      "Dallas/Fort Worth": 8
+    },
+    "New Orleans": {
+      "Memphis": 14,
+      "Atlanta": 16,
+      "Jacksonville": 20,
+      "Dallas/Fort Worth": 16,
+      "Houston": 12
+    },
+    "Jacksonville": {
+      "Miami": 12,
+      "Atlanta": 10,
+      "Charlotte": 12,
+      "New Orleans": 20
+    },
+    "Miami": {
+      "Jacksonville": 12
+    },
+    "Atlanta": {
+      "New Orleans": 16,
+      "Jacksonville": 10,
+      "Memphis": 12,
+      "Nashville": 8,
+      "Charlotte": 8
+    }
+  },
+  "Brown": {
+    "Milwaukee": {
+      "Minneapolis": 10,
+      "Chicago": 3
+    },
+    "Chicago": {
+      "Kansas City": 16,
+      "St. Louis": 9,
+      "Detroit": 10,
+      "Columbus": 10,
+      "Indianapolis": 6,
+      "Milwaukee": 3
+    },
+    "Indianapolis": {
+      "Columbus": 7,
+      "Nashville": 9,
+      "St. Louis": 8,
+      "Chicago": 6
+    },
+    "St. Louis": {
+      "Nashville": 9,
+      "Memphis": 9,
+      "Kansas City": 8,
+      "Chicago": 9,
+      "Indianapolis": 8
+    },
+    "Kansas City": {
+      "Minneapolis": 14,
+      "Denver": 19,
+      "Chicago": 16,
+      "St. Louis": 8,
+      "Oklahoma City": 10,
+      "Memphis": 14
+    },
+    "Oklahoma City": {
+      "Denver": 17,
+      "Albuquerque": 18,
+      "Dallas/Fort Worth": 7,
+      "Kansas City": 10,
+      "Memphis": 15
+    },
+    "Memphis": {
+      "Dallas/Fort Worth": 15,
+      "New Orleans": 14,
+      "St. Louis": 9,
+      "Kansas City": 14,
+      "Oklahoma City": 15,
+      "Nashville": 7,
+      "Atlanta": 12
+    }
+  },
+  "Red": {
+    "Toronto": {
+      "Detroit": 8,
+      "Ottawa": 8,
+      "New York (North)": 14,
+      "Pittsburgh": 11
+    },
+    "Detroit": {
+      "Columbus": 7,
+      "Chicago": 10,
+      "Toronto": 8
+    },
+    "Pittsburgh": {
+      "Columbus": 6,
+      "New York (North)": 11,
+      "Philadelphia": 9,
+      "Washington": 7,
+      "Toronto": 11
+    },
+    "Columbus": {
+      "Washington": 12,
+      "Nashville": 15,
+      "Chicago": 10,
+      "Indianapolis": 7,
+      "Detroit": 7,
+      "Pittsburgh": 6
+    },
+    "Nashville": {
+      "Atlanta": 8,
+      "Indianapolis": 9,
+      "St. Louis": 9,
+      "Memphis": 7,
+      "Columbus": 15,
+      "Washington": 22,
+      "Charlotte": 12
+    },
+    "Washington": {
+      "Pittsburgh": 7,
+      "Columbus": 12,
+      "Nashville": 22,
+      "Philadelphia": 5,
+      "Charlotte": 12
+    },
+    "Charlotte": {
+      "Jacksonville": 12,
+      "Atlanta": 8,
+      "Nashville": 12,
+      "Washington": 12
+    }
+  },
+  "Green": {
+    "Quebec": {
+      "Montreal": 5
+    },
+    "Ottawa": {
+      "Montreal": 3,
+      "New York (North)": 13,
+      "Toronto": 8
+    },
+    "Montreal": {
+      "New York (North)": 12,
+      "Boston": 9,
+      "Quebec": 5,
+      "Ottawa": 3
+    },
+    "Boston": {
+      "New York (South)": 7,
+      "Montreal": 9
+    },
+    "New York (North)": {
+      "New York (South)": 0,
+      "Toronto": 14,
+      "Pittsburgh": 11,
+      "Ottawa": 13,
+      "Montreal": 12
+    },
+    "New York (South)": {
+      "Philadelphia": 3,
+      "Boston": 7,
+      "New York (North)": 0
+    },
+    "Philadelphia": {
+      "Pittsburgh": 9,
+      "Washington": 5,
+      "New York (South)": 3
+    }
+  }
+}

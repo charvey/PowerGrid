@@ -1,0 +1,20 @@
+{
+    "MapFile": "Deluxe_NA.map.json",
+    "RegionsInPlay": [
+        "Green",
+        "Red"
+    ],
+    "Phase": 1,
+    "Generators": {
+        "Philadelphia": [
+            "Gray",
+            null,
+            null
+        ],
+        "Washington": [
+            "Yellow",
+            null,
+            null
+        ]
+    }
+}
