@@ -1,4 +1,4 @@
-before_build:
-  - nuget restore .\src\PowerGrid.sln
+build_script:
+  - dotnet build .\src\PowerGrid.sln
 
 image: Visual Studio 2017
